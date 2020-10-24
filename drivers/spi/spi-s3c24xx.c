@@ -404,7 +404,7 @@ static int s3c24xx_spi_txrx(struct spi_device *spi, struct spi_transfer *t)
 	hw->len = t->len;
 	hw->count = 0;
 
-	init_completion(&hw->done);
+	init_completion(&hw->done); //initialise one completion
 
 	hw->fiq_inuse = 0;
 	if (s3c24xx_spi_usefiq(hw) && t->len >= 3)
