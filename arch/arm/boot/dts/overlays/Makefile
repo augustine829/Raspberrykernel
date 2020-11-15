@@ -14,6 +14,7 @@ dtbo-$(CONFIG_ARCH_BCM2835) += \
 	adv728x-m.dtbo \
 	akkordion-iqdacplus.dtbo \
 	allo-boss-dac-pcm512x-audio.dtbo \
+	allo-boss2-dac-audio.dtbo \
 	allo-digione.dtbo \
 	allo-katana-dac-audio.dtbo \
 	allo-piano-dac-pcm512x-audio.dtbo \
@@ -107,6 +108,7 @@ dtbo-$(CONFIG_ARCH_BCM2835) += \
 	mcp23s17.dtbo \
 	mcp2515-can0.dtbo \
 	mcp2515-can1.dtbo \
+	mcp251xfd.dtbo \
 	mcp3008.dtbo \
 	mcp3202.dtbo \
 	mcp342x.dtbo \
@@ -125,6 +127,7 @@ dtbo-$(CONFIG_ARCH_BCM2835) += \
 	pca953x.dtbo \
 	pibell.dtbo \
 	pifacedigital.dtbo \
+	pifi-40.dtbo \
 	piglow.dtbo \
 	piscreen.dtbo \
 	piscreen2r.dtbo \
@@ -157,7 +160,6 @@ dtbo-$(CONFIG_ARCH_BCM2835) += \
 	sc16is752-spi1.dtbo \
 	sdhost.dtbo \
 	sdio.dtbo \
-	sdtweak.dtbo \
 	sh1106-spi.dtbo \
 	smi.dtbo \
 	smi-dev.dtbo \
